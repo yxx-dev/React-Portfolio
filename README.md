@@ -1,7 +1,7 @@
 # REACT Portfolio
 
 ## Description
-A portfolio to share with fellow developers my REACT projects.
+A single-page portfolio app to share with fellow developers my REACT projects.
 Deployment: https://intense-spire-77106.herokuapp.com/
 
 ## Table of Contents
