@@ -1,4 +1,5 @@
 import React from 'react';
+import resume from './images/Resume Yilun Xu.pdf'
 
 export default function Resume() {
 
@@ -7,9 +8,9 @@ export default function Resume() {
         <section id="resume" className="topics">
             <h1 className="left-title">Resume</h1>
             <article className="right-content">
-                <section className="contact-channel" id="cell">(919) 961-7998</section>
-                <section className="contact-channel" id="email"><a href="mailto:yxu13@uw.edu">yxu13@uw.edu</a></section>
-                <section className="contact-channel" id="GitHub"><a href="https://github.com/yxx-dev" target="_blank" rel="noopener noreferrer">GitHub</a></section>
+              my resume text
+              <a href={resume} target="_blank" rel="noopener noreferrer">Resume (PDF)</a>
+
             </article>
         </section>
     );
