@@ -2,7 +2,7 @@
 
 ## Description
 A single-page portfolio app to share with fellow developers my REACT projects.
-Deployment: https://intense-spire-77106.herokuapp.com/
+Deployment: 
 
 ## Table of Contents
 NA

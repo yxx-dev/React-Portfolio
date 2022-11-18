@@ -1,12 +1,22 @@
-import React, { useState } from 'react';
-import Welcome from './components/Welcome';
+import React from 'react';
+import Header from './components/Header';
+import Banner from './components/Banner';
+import AboutMe from './components/AboutMe';
+import Project from './components/Project';
+import Footer from './components/Footer';
 
-function App() {
-  // Here we declare a state boolean variable "loggedIn" and a function to update it.
-  const [loggedIn, setLoggedIn] = useState(false);
-
-  // We return the Welcome component and pass loggedIn and setLoggedIn as props.
-  return <Welcome loggedIn={loggedIn} setLoggedIn={setLoggedIn} />;
-}
-
-export default App;
+export default function App() {
+  return (
+    <div>
+      <Header />
+      <Banner />
+      <AboutMe />
+      <Project />
+      <Project />
+      <Project />
+      <Project />
+      <Footer />
+    </div>
+  ) 
+  
+};
