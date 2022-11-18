@@ -1,6 +1,6 @@
 import React from 'react';
 import Header from './components/Header';
-import Banner from './components/Banner';
+// import Banner from './components/Banner';
 import AboutMe from './components/AboutMe';
 import Portfolio from './components/Portfolio';
 // import Project from './components/Project';
@@ -10,7 +10,7 @@ export default function App() {
   return (
     <div>
       <Header />
-      <Banner />
+      {/* <Banner /> */}
       <AboutMe />
       <Portfolio />
       <Footer />

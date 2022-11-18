@@ -4,8 +4,8 @@ export default function Footer() {
 
     
     return (
-        <section id="contact-me" className="topics">
-            <h1 className="left-title">Contact Me</h1>
+        <section id="contact" className="topics">
+            <h1 className="left-title">Contact</h1>
             <article className="right-content">
                 <section className="contact-channel" id="cell">(919) 961-7998</section>
                 <section className="contact-channel" id="email"><a href="mailto:yxu13@uw.edu">yxu13@uw.edu</a></section>

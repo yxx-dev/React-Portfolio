@@ -4,7 +4,7 @@ export default function Portfolio() {
 
     
     return (
-        <section id="work" className="topics">
+        <section id="portfolio" className="topics">
         <h1 className="left-title">Portfolio</h1>
         <article className="right-content">
             {/* <a className="prod" id="proj1" href="https://yxx-dev.github.io/Fun-break-fortifier-official/" target="_blank" rel="noopener noreferrer"><h2>Fun Break Fortifier<br><br/></h2></a>
