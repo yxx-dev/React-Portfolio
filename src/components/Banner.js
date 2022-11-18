@@ -4,7 +4,7 @@ export default function Banner() {
 
     
     return (
-        <section class="subtitle">Welcome to my REACT project portfolio <br></br></section>   
+        <section className="subtitle" style={{backgroundImage: "url(/assets/images/Banner.jpg)"}}>Welcome to my REACT project portfolio <br></br></section>   
 
     );
 };
