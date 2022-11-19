@@ -11,7 +11,9 @@ NA
 Node, Express, REACT
 
 ## Usage
-For demonstration purpose only.
+For demonstration purpose only. <br />
+Screenshot: <br />
+![alt text](/src/Screenshot.png)
 
 ## Credits
 Developed from scratch
