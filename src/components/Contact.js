@@ -7,7 +7,7 @@ export default function Contact() {
   const [name, setName] = useState("");
   const [email, setEmail] = useState("");
   const [message, setMessage] = useState("");
-  const [errorMessage, setErrorMessage] = useState('');
+  const [errorMessage, setErrorMessage] = useState("");
 
   function handleInputChange (e) {
     switch (e.target.name) {
@@ -28,13 +28,14 @@ export default function Contact() {
     setName("");
     setEmail("");
     setMessage("");
+    setErrorMessage("");
   }
 
   function handleBlur () {
     if(!name || !email || !message) { 
         setErrorMessage("Please comple all entries");
         // alert("invalid")
-    } else setErrorMessage('');
+    } else setErrorMessage("");
   }
 
   return (
@@ -47,16 +48,18 @@ export default function Contact() {
                     <Form.Control
                         required
                         name="name"
+                        value={name}
                         onChange={handleInputChange}
                         type="input"
                         placeholder="Enter name"
                         />
                 </Form.Group>
-                <Form.Group className="mb-3">
+                <Form.Group hasValidation className="mb-3">
                     <Form.Label>Email address</Form.Label>
                     <Form.Control 
                         required 
                         name="email"
+                        value={email}
                         onChange={handleInputChange}
                         type="email" 
                         placeholder="Enter email" />
@@ -68,6 +71,7 @@ export default function Contact() {
                     <Form.Control 
                     required 
                     name="message"
+                    value={message}
                     onChange={handleInputChange}
                     as="textarea" 
                     rows="3" 
@@ -75,7 +79,7 @@ export default function Contact() {
                 </Form.Group>
                 <Button
                 variant="success"
-                type="button"
+                type="submit"
                 onClick={handleFormSubmit}
                 >
                     Submit
