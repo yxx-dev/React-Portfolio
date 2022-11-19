@@ -54,7 +54,7 @@ export default function Contact() {
                         placeholder="Enter name"
                         />
                 </Form.Group>
-                <Form.Group hasValidation className="mb-3">
+                <Form.Group className="mb-3" controlId="formBasicEmail">
                     <Form.Label>Email address</Form.Label>
                     <Form.Control 
                         required 
@@ -62,9 +62,8 @@ export default function Contact() {
                         value={email}
                         onChange={handleInputChange}
                         type="email" 
-                        placeholder="Enter email" />
-                    <Form.Text className="text-muted">
-                    </Form.Text>
+                        placeholder="Enter email"
+                         />
                 </Form.Group>
                 <Form.Group className="mb-3">
                     <Form.Label>Message</Form.Label>
@@ -80,7 +79,7 @@ export default function Contact() {
                 <Button
                 variant="success"
                 type="submit"
-                onClick={handleFormSubmit}
+                // onSubmit={handleFormSubmit}
                 >
                     Submit
                 </Button>
