@@ -1,9 +1,17 @@
 import React from 'react';
 
-export default function Project() {
+export default function Project({id, name, deployment, repo}) {
 
 
     return (
-        <div>projects</div>
-    );
+        <a class="prod" id={id} href={deployment} style={{backgroundImage: `url(/assets/images/${id}.jpg)`}}>
+             {/* target="_blank" rel="noopener noreferrer" */}
+            <h2>
+                <div>{name}</div> 
+                <a href={deployment}>- deployment|</a>
+                <a href={repo}>repo</a>
+                <br></br>
+            </h2>
+        </a>
+    )
 };

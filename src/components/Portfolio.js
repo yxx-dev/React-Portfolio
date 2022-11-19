@@ -1,6 +1,37 @@
 import React from 'react';
 import Project from './Project';
 
+const projectDetail = [
+    {
+        id: 'proj1',
+        name: 'Project1',
+        deployment: '#',
+        repo: '#'
+    },
+    {
+        id: 'proj2',
+        name: 'Project2',
+        deployment: '#',
+        repo: '#'
+    },
+    {
+        id: 'proj3',
+        name: 'Project3',
+        deployment: '#',
+        repo: '#'
+    },
+    // {
+    //     id: 'proj4',
+    //     name: 'Fun Break Fortifier',
+    //     link: 'https://yxx-dev.github.io/Fun-break-fortifier-official/'
+    // },
+    // {
+    //     id: 'proj5',
+    //     name: 'CMEV Survey',
+    //     link: 'https://blooming-garden-02531.herokuapp.com/login'
+    // },
+]
+
 
 export default function Portfolio() {
 
@@ -9,12 +40,11 @@ export default function Portfolio() {
         <section id="portfolio" className="topics">
             <h1 className="left-title">Portfolio</h1>
                 <article className="right-content">
-                    <Project />
-            {/* <a className="prod" id="proj1" href="https://yxx-dev.github.io/Fun-break-fortifier-official/" target="_blank" rel="noopener noreferrer"><h2>Fun Break Fortifier<br><br/></h2></a>
-            <a className="prod" id="proj2" href="https://blooming-garden-02531.herokuapp.com/login" target="_blank" rel="noopener noreferrer"><h2>CMEV Survey<br><br/></h2></a>
-            <a className="prod" id="proj3" href="./proj3.html" target="_blank" rel="noopener noreferrer"><h2>Project 3<br><br/></h2></a>
-            <a className="prod" id="proj4" href="./proj4.html" target="_blank" rel="noopener noreferrer"><h2>Project 4<br><br/></h2></a>
-            <a className="prod" id="proj5" href="./proj5.html" target="_blank" rel="noopener noreferrer"><h2>Project 5<br><br/></h2></a>                 */}
+                    <Project id={projectDetail[0].id} name={projectDetail[0].name} deployment={projectDetail[0].deployment} repo={projectDetail[0].repo}/>
+                    <Project id={projectDetail[1].id} name={projectDetail[1].name} deployment={projectDetail[1].deployment} repo={projectDetail[1].repo}/>
+                    <Project id={projectDetail[2].id} name={projectDetail[2].name} deployment={projectDetail[2].deployment} repo={projectDetail[2].repo}/>
+                    {/* <Project id={projectDetail[3].id} name={projectDetail[3].name} link={projectDetail[3].link}/>
+                    <Project id={projectDetail[4].id} name={projectDetail[4].name} link={projectDetail[4].link}/> */}
                 </article>
         </section>
         
