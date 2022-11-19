@@ -13,7 +13,7 @@ Node, Express, REACT
 ## Usage
 For demonstration purpose only. <br />
 Screenshot: <br />
-![alt text](/src/Screenshot.png)
+![alt text](Screenshot.png)
 
 ## Credits
 Developed from scratch
