@@ -2,7 +2,7 @@
 
 ## Description
 A single-page portfolio app to share with fellow developers my REACT projects.
-Deployment: 
+Deployment: https://yxx-dev.github.io/React-Portfolio/
 
 ## Table of Contents
 NA
