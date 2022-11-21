@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/React-Portfolio/static/css/main.99bc7a09.css",
-    "main.js": "/React-Portfolio/static/js/main.888a9a34.js",
+    "main.js": "/React-Portfolio/static/js/main.0555b83f.js",
     "static/media/Resume Yilun Xu.pdf": "/React-Portfolio/static/media/Resume Yilun Xu.dedc96249f8da083a03f.pdf",
     "index.html": "/React-Portfolio/index.html",
     "main.99bc7a09.css.map": "/React-Portfolio/static/css/main.99bc7a09.css.map",
-    "main.888a9a34.js.map": "/React-Portfolio/static/js/main.888a9a34.js.map"
+    "main.0555b83f.js.map": "/React-Portfolio/static/js/main.0555b83f.js.map"
   },
   "entrypoints": [
     "static/css/main.99bc7a09.css",
-    "static/js/main.888a9a34.js"
+    "static/js/main.0555b83f.js"
   ]
 }
