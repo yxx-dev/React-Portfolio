@@ -2,7 +2,7 @@ import React from 'react';
 
 export default function Footer() {
 
-    
+
     return (
         <section id="contact" className="topics">
             <h1 className="left-title"> </h1>
